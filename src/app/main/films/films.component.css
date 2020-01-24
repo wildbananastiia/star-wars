@@ -1,0 +1,35 @@
+.films-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.films-section-wrapper h1{
+    padding-top: 20px;
+    align-self: center;
+    margin: 0;
+}
+
+.films-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    height: 70vh;
+    padding: 0 20px;
+}
+
+
+.films-wrapper .film-text-wrapper,
+.films-wrapper img {
+    height: 100%;
+}
+
+.films-wrapper .film-text-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:   black;
+    color: white;
+    padding: 0 2em;
+}
