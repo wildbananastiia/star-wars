@@ -1,9 +1,13 @@
 <div class="films">
     <h1 class="mat-headline">FILMS</h1>
 
-    <div class="film-card-wrapper">
+    <div class="film-card-wrapper" *ngIf="films; else spinner">
         <ng-container *ngFor="let film of films">
             <app-film-card [film]="film" class="film-card"></app-film-card>
         </ng-container>
     </div>
 </div>
+
+<ng-template #spinner>
+    <mat-spinner></mat-spinner>
+</ng-template>

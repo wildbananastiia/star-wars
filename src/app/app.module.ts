@@ -16,6 +16,7 @@ import { HeaderComponent } from './core/header_and_footer/header/header.componen
 import { FooterComponent } from './core/header_and_footer/footer/footer.component';
 import { FilmCardComponent } from './core/film-card/film-card.component';
 import { SocialComponent } from './core/social/social.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { SocialComponent } from './core/social/social.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
