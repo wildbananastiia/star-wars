@@ -1,15 +1,17 @@
+.films {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px 40px 40px;
+}
+
 .film-card-wrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-.films {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .film-card-wrapper .film-card {
-    flex: 1 0 27%;
-    margin: 5px;
+    flex: 0 50%;
+    box-sizing: border-box;
+    padding: 10px;
 }
